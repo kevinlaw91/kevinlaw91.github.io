@@ -1,0 +1,6 @@
+# OS or Editor folders
+.idea
+Thumbs.db
+
+# Folders to ignore
+node_modules
