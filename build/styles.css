@@ -1,0 +1,162 @@
+html {
+  font-size: 100%; }
+
+a, a:link, a:visited {
+  text-decoration: none; }
+
+body {
+  background: #b0b0b0;
+  font-family: 'Convergence', sans-serif; }
+
+.container-fluid {
+  max-width: 1600px; }
+
+.section-intro {
+  padding-bottom: 0;
+  background: #c7c7c7;
+  background: linear-gradient(to bottom, #2f2f2f 0%, #797979 100%); }
+  .section-intro .pad-top {
+    padding-top: 5rem; }
+  .section-intro h1 {
+    color: #efefef;
+    font-family: 'Marcellus', sans-serif;
+    font-size: 3.5rem;
+    margin: 0; }
+    @media only screen and (min-width: 48em) {
+      .section-intro h1 {
+        font-size: 5rem; } }
+  .section-intro h2 {
+    color: #f35656;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem; }
+  .section-intro p {
+    font-size: 1.2rem;
+    color: #DDD;
+    font-family: 'Marcellus', sans-serif; }
+  .section-intro svg.icon {
+    width: 32px;
+    height: 32px;
+    opacity: 0.5;
+    transition: opacity 250ms; }
+    .section-intro svg.icon:hover {
+      opacity: unset; }
+  .section-intro .grass {
+    background: url("../static/grass.png") bottom repeat-x;
+    max-width: unset; }
+
+.section-button {
+  padding: 2rem;
+  background-color: #3a92a0; }
+  .section-button button {
+    border: 1px solid #e9fcff;
+    background-color: transparent;
+    color: #e9fcff;
+    padding: 1rem;
+    transition: all 250ms;
+    font-family: 'Marcellus', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase; }
+    .section-button button:hover {
+      background-color: #e9fcff;
+      color: #3a92a0; }
+
+.section-projects {
+  padding: 2rem;
+  background: url("../static/black_lozenge.png"), #1E1E1E; }
+  .section-projects h1 {
+    color: #cc3333;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; }
+  .section-projects article {
+    padding: 2rem 0; }
+    .section-projects article figure {
+      position: relative;
+      margin: 0;
+      padding: 0; }
+      .section-projects article figure:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 56.25%; }
+      .section-projects article figure > .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; }
+      .section-projects article figure .content {
+        overflow: hidden; }
+    .section-projects article h1 {
+      color: #d0d0d0;
+      font-size: 2rem;
+      font-family: 'Marcellus', sans-serif; }
+      .section-projects article h1 button {
+        font-size: 0.85rem;
+        border: 2px solid #333;
+        color: #666;
+        padding: 0.25rem;
+        background-color: transparent; }
+        .section-projects article h1 button:hover {
+          color: #cc3333;
+          border-color: #cc3333; }
+          .section-projects article h1 button:hover svg {
+            fill: #cc3333; }
+      .section-projects article h1 svg {
+        width: 16px;
+        height: 16px;
+        fill: #666;
+        vertical-align: text-top; }
+      .section-projects article h1 a {
+        font-family: 'Convergence', sans-serif;
+        font-size: 1rem;
+        vertical-align: middle; }
+    .section-projects article .tags {
+      border-bottom: 0.25rem solid #cc3333; }
+    .section-projects article .tag {
+      display: inline-block;
+      padding: 0.75rem;
+      color: #80daeb; }
+    .section-projects article p {
+      color: #b0b0b0; }
+
+.section-skills {
+  padding: 2rem;
+  background: url("../static/norwegian_rose.png"), #dadada; }
+  .section-skills h1 {
+    color: #cc3333;
+    font-family: 'Marcellus', sans-serif; }
+  .section-skills .sub-section {
+    padding-top: 1rem;
+    padding-bottom: 3.5rem; }
+  .section-skills .grid ul {
+    margin: 0;
+    padding: 0; }
+  .section-skills .grid .card {
+    display: inline-block;
+    background-color: #322c34;
+    margin: 0.1rem;
+    padding: 0; }
+    @media only screen and (min-width: 75em) {
+      .section-skills .grid .card {
+        margin: 0.5rem; } }
+    .section-skills .grid .card span {
+      display: inline-block;
+      color: #80daeb;
+      font-size: 1rem;
+      margin: 0.75rem; }
+      @media only screen and (min-width: 75em) {
+        .section-skills .grid .card span {
+          margin: 1rem;
+          font-size: 2rem; } }
+
+.section-bio {
+  padding: 2rem;
+  background: #614385;
+  background: linear-gradient(to left, #614385, #516395); }
+  .section-bio h1 {
+    color: white;
+    font-family: 'Marcellus', sans-serif; }
+  .section-bio p {
+    color: #cccccc; }
